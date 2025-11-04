@@ -1,0 +1,87 @@
+# Build results
+bin/
+obj/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Visual Studio Code
+.vscode/
+
+# Rider
+.idea/
+*.sln.iml
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Test results
+TestResults/
+*.coverage
+*.coveragejson
+*.testsettings
+*.vsmdi
+*.vsp
+*.vspx
+*.vspscc
+*.vssscc
+
+# NuGet
+*.nupkg
+# The packages folder can be ignored because of Package Restore
+**/packages/*
+# except build/, which is used as an MSBuild target.
+!**/packages/build/
+# Uncomment if you have tasks that create the project's static files in wwwroot
+#wwwroot/
+
+# Entity Framework
+Migrations/*Designer.cs
+Migrations/*Snapshot.cs
+
+# Local secrets
+secrets.json
+appsettings.Development.json
+appsettings.json.bak
+
+# Docker
+*.pid
+
+# Others
+*.bak
+*.orig
+*.swp
+*.tmp
+
+# JetBrains Rider
+.idea/
+*.sln.iml
+
+# Resharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# dotCover
+*.dotCover
+
+# SonarQube
+.sonar/
+sonarqube.out
+
+# NCrunch
+.ncrunch*
+*.ncrunch*
+
+# VS Code settings
+.history/
